@@ -6,7 +6,7 @@ Refer to `install.bat` for windows and `install.sh` for linux
 
 ## Usage
 ```
-vgmx.exe ./example.vgz -o
+vgmx.exe ./example.vgz
 ```
 ```json
 {
