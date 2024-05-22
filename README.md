@@ -10,27 +10,27 @@ vgmx.exe ./example.vgz -o
 ```
 ```json
 {
-  "IntroDuration": 41.86,
-  "LoopDuration": 41.34,
+  "IntroDuration": 82.4,
+  "LoopDuration": 81.92,
   "Loop": true,
   "Gd3Tag": {
     "Title": {
-      "en": "Data Menu",
+      "en": "Caveman Rock",
       "jp": ""
     },
     "Game": {
-      "en": "F1 Circus MD",
-      "jp": "\uff26\uff11\u30b5\u30fc\u30ab\u30b9\uff2d\uff24"
+      "en": "James Bond 007: The Duel",
+      "jp": "００７・死闘"
     },
     "System": {
       "en": "Sega Mega Drive / Genesis",
-      "jp": "\u30bb\u30ac\u30e1\u30ac\u30c9\u30e9\u30a4\u30d6"
+      "jp": "セガメガドライブ"
     },
     "Composer": {
-      "en": "Hiroshi Ogawa",
-      "jp": "\u5c0f\u5ddd \u535a\u53f8"
+      "en": "Matt Furniss",
+      "jp": ""
     },
-    "ReleaseDate": "1991/12/20",
+    "ReleaseDate": "1992/11",
     "ConvAuthor": "-DJSW-",
     "Notes": ""
   },
@@ -99,6 +99,6 @@ vgmx.exe ./example.vgz -o
   "Version": 336,
   "DataOffset": 64,
   "Rate": 60,
-  "Samples": 1845959
+  "Samples": 3633771
 }
 ```
