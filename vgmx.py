@@ -31,7 +31,8 @@ def parse_vgm(file_path):
     
     gd3_offset = struct.unpack_from('<I', buf, 0x14)[0] + 0x14
     gd3_tag = extract_gd3(buf, gd3_offset)
-    
+
+    # HELL
     chips = [
         'None' if struct.unpack_from('<I', buf, 0x2C)[0] == 0 else {'Name': "YM2612", 'Type': 'FM'},
         'None' if struct.unpack_from('<I', buf, 0x30)[0] == 0 else {'Name': "YM2151", 'Type': 'FM'},
