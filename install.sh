@@ -1,2 +1,2 @@
 pip install pyinstaller \
-pyinstaller --onefile .\vgmx.py
+pyinstaller --onefile --icon=icon.ico .\vgmx.py
